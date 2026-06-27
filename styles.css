@@ -2225,9 +2225,11 @@ position:relative;
 
 .chapter-header{
 
-text-align:center;
+padding-top:130px;
 
-margin-bottom:80px;
+margin-bottom:70px;
+
+text-align:center;
 
 }
 
