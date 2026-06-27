@@ -5297,3 +5297,37 @@ letter-spacing:.08em;
 margin-top:10px;
 
 }
+
+/*====================================================
+
+INTRODUCTION PAGE
+
+======================================================*/
+
+.introduction-content{
+
+max-width:760px;
+
+margin:0 auto;
+
+}
+
+.introduction-closing{
+
+margin-top:70px;
+
+text-align:center;
+
+}
+
+.introduction-closing hr{
+
+width:140px;
+
+margin:0 auto 35px;
+
+border:0;
+
+border-top:2px solid var(--gold);
+
+}
