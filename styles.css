@@ -4939,3 +4939,68 @@ by Bradley Hobbs
 
 ======================================================*/
 
+/*====================================================
+CHAPTER NAVIGATION
+======================================================*/
+.chapter-navigation-section{
+padding:100px 0;
+margin-top:100px;
+border-top:1px solid rgba(255,255,255,.06);
+}
+.chapter-ending{
+text-align:center;
+font-family:'Cinzel',serif;
+letter-spacing:.25em;
+text-transform:uppercase;
+font-size:.85rem;
+color:var(--gold);
+margin-bottom:45px;
+}
+.chapter-navigation{
+display:grid;
+grid-template-columns:
+repeat(4,1fr);
+gap:20px;
+}
+.chapter-button{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:28px;
+border-radius:24px;
+background:rgba(255,255,255,.03);
+border:1px solid rgba(255,255,255,.06);
+transition:.35s ease;
+text-align:center;
+min-height:120px;
+}
+.chapter-button:hover{
+background:rgba(199,154,51,.08);
+border-color:var(--gold);
+transform:translateY(-6px);
+}
+.chapter-button span{
+font-family:'Cinzel',serif;
+font-size:.8rem;
+letter-spacing:.15em;
+text-transform:uppercase;
+color:var(--gold);
+margin-bottom:10px;
+}
+.chapter-button strong{
+font-size:1rem;
+font-weight:600;
+color:white;
+line-height:1.4;
+}
+.contents-chapter{
+background:
+linear-gradient(
+135deg,
+rgba(199,154,51,.12),
+rgba(199,154,51,.04)
+);
+border-color:rgba(199,154,51,.25);
+}
+
