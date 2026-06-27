@@ -1170,6 +1170,22 @@ color:var(--text);
 }
 
 
+/*======================================
+BOOK COVER ACTION
+======================================*/
+
+.cover-actions{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+margin:40px auto 30px;
+
+}
+
 
 /*====================================================
 
