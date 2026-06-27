@@ -3391,11 +3391,15 @@ FOOTER
 
 footer{
 
-margin-top:140px;
+margin-top:60px;
+
+padding:30px 20px;
 
 background:#070D16;
 
 border-top:1px solid rgba(255,255,255,.05);
+
+text-align:center;
 
 }
 
@@ -3403,9 +3407,11 @@ border-top:1px solid rgba(255,255,255,.05);
 
 max-width:1280px;
 
-margin:auto;
+margin:0 auto;
 
-padding:80px 30px 40px;
+text-align:center;
+
+padding:30px;
 
 }
 
