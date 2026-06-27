@@ -5070,3 +5070,58 @@ rgba(199,154,51,.04)
 border-color:rgba(199,154,51,.25);
 }
 
+/*======================================
+COPYRIGHT PAGE
+======================================*/
+
+.copyright-page .page{
+
+max-width:900px;
+
+margin:140px auto;
+
+}
+
+.page-header-simple{
+
+text-align:center;
+
+margin-bottom:70px;
+
+}
+
+.copyright-content{
+
+max-width:700px;
+
+margin:auto;
+
+text-align:center;
+
+}
+
+.copyright-content p{
+
+margin-bottom:28px;
+
+}
+
+.copyright-content strong{
+
+font-family:'Cinzel',serif;
+
+font-size:1.2rem;
+
+letter-spacing:.08em;
+
+}
+
+.copyright-verse{
+
+margin-top:40px;
+
+font-style:italic;
+
+color:var(--gold-soft);
+
+}
