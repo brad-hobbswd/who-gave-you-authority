@@ -5129,3 +5129,73 @@ font-style:italic;
 color:var(--gold-soft);
 
 }
+
+/*====================================================
+
+DEDICATION PAGE
+
+======================================================*/
+
+.dedication-content{
+
+max-width:720px;
+
+margin:0 auto;
+
+text-align:center;
+
+}
+
+.dedication-opening{
+
+font-family:"Cinzel",serif;
+
+font-size:2rem;
+
+color:var(--gold);
+
+margin-bottom:45px;
+
+letter-spacing:.08em;
+
+}
+
+.dedication-content p{
+
+margin-bottom:32px;
+
+font-size:1.15rem;
+
+line-height:2;
+
+}
+
+.dedication-signature{
+
+margin-top:70px;
+
+}
+
+.dedication-signature p{
+
+margin-bottom:12px;
+
+font-style:italic;
+
+}
+
+.dedication-signature h3{
+
+font-family:"Cinzel",serif;
+
+font-size:1.5rem;
+
+font-weight:600;
+
+letter-spacing:.08em;
+
+color:var(--gold);
+
+margin:0;
+
+}
