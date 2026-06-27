@@ -964,6 +964,52 @@ color:black;
 
 }
 
+.open-book-btn{
+
+display:inline-flex;
+
+align-items:center;
+
+justify-content:center;
+
+padding:18px 56px;
+
+margin-top:40px;
+
+font-family:'Cinzel',serif;
+
+font-size:1rem;
+
+letter-spacing:.20em;
+
+text-transform:uppercase;
+
+color:var(--gold);
+
+background:transparent;
+
+border:2px solid var(--gold);
+
+border-radius:50px;
+
+transition:all .35s ease;
+
+cursor:pointer;
+
+}
+
+.open-book-btn:hover{
+
+background:var(--gold);
+
+color:var(--midnight);
+
+transform:translateY(-4px);
+
+box-shadow:0 20px 45px rgba(199,154,51,.30);
+
+}
+
 
 
 /*====================================================
