@@ -4658,7 +4658,7 @@ LANDING INTRO
 
 max-width:900px;
 
-margin:90px auto 120px;
+margin:55px auto 120px;
 
 padding:0 30px;
 
@@ -4668,23 +4668,21 @@ text-align:center;
 
 .landing-intro .section-label{
 
-margin-top:30px;
+display:inline-block;
 
-margin-bottom:28px;
+margin-bottom:38px;
 
 }
 
 .landing-intro p{
 
-max-width:760px;
+max-width:820px;
 
-margin:30px auto 0;
+margin:0 auto;
 
-font-size:1.15rem;
+font-size:1.18rem;
 
 line-height:2;
-
-color:var(--text-light);
 
 }
 
