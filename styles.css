@@ -4025,6 +4025,10 @@ color:var(--text-muted);
 
 color:var(--gold);
 
+display:inline-block;
+
+margin:6px 8px;
+
 }
 
 .footer-bottom a:hover{
@@ -4654,7 +4658,7 @@ LANDING INTRO
 
 max-width:900px;
 
-margin:70px auto 120px;
+margin:90px auto 120px;
 
 padding:0 30px;
 
@@ -4673,5 +4677,27 @@ font-size:1.15rem;
 line-height:2;
 
 color:var(--text-light);
+
+}
+
+/*======================================
+LANDING PAGE BUTTONS
+======================================*/
+
+.hero-buttons{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:28px;
+
+margin-top:60px;
+
+margin-bottom:20px;
+
+flex-wrap:wrap;
 
 }
