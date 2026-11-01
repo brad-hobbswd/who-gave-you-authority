@@ -5468,3 +5468,79 @@ Balanced banner, biography and closing navigation
     border-radius: 22px;
   }
 }
+
+
+/*====================================================
+INNER PAGE BANNERS
+Keep the homepage hero at its existing size.
+====================================================*/
+
+.contents-page .page-header,
+.author-page .page-header,
+.contact-page .page-header {
+  width: min(92%, 980px);
+  max-width: 980px;
+  margin: 112px auto 48px;
+  padding: 0;
+}
+
+.contents-page .page-banner,
+.author-page .page-banner,
+.contact-page .page-banner {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto 28px;
+}
+
+.contents-page .page-banner img,
+.author-page .page-banner img,
+.contact-page .page-banner img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 24px;
+}
+
+.contents-page .page-header-content,
+.author-page .page-header-content,
+.contact-page .page-header-content {
+  margin-top: 22px;
+}
+
+@media (max-width: 768px) {
+  .contents-page .page-header,
+  .author-page .page-header,
+  .contact-page .page-header {
+    width: 94%;
+    margin: 96px auto 34px;
+  }
+
+  .contents-page .page-banner,
+  .author-page .page-banner,
+  .contact-page .page-banner {
+    margin-bottom: 20px;
+  }
+
+  .contents-page .page-banner img,
+  .author-page .page-banner img,
+  .contact-page .page-banner img {
+    border-radius: 18px;
+  }
+
+  .contents-page .page-header-content,
+  .author-page .page-header-content,
+  .contact-page .page-header-content {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contents-page .page-header,
+  .author-page .page-header,
+  .contact-page .page-header {
+    width: 95%;
+    margin-top: 88px;
+  }
+}
