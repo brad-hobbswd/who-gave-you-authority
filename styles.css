@@ -5544,3 +5544,229 @@ Keep the homepage hero at its existing size.
     margin-top: 88px;
   }
 }
+
+
+/*====================================================
+LEGAL PAGES
+Consistent reading width, spacing and alignment
+====================================================*/
+
+.copyright-page .page,
+.privacy-page .page,
+.terms-page .page {
+  width: min(92%, 900px);
+  max-width: 900px;
+  margin: 138px auto 64px;
+  padding: 0 24px;
+}
+
+.copyright-page .reading-width,
+.privacy-page .reading-width,
+.terms-page .reading-width {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.copyright-page .page-header-simple,
+.privacy-page .chapter-header,
+.terms-page .chapter-header {
+  padding-top: 18px;
+  margin: 0 auto 38px;
+  text-align: center;
+}
+
+.copyright-page .page-header-simple h1,
+.privacy-page .chapter-header h1,
+.terms-page .chapter-header h1 {
+  margin: 0 auto 14px;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  line-height: 1.12;
+}
+
+.copyright-page .page-header-simple .divider,
+.privacy-page .chapter-header .divider,
+.terms-page .chapter-header .divider {
+  margin: 20px auto 0;
+}
+
+.copyright-page .copyright-content,
+.privacy-page .chapter-content,
+.terms-page .chapter-content {
+  width: min(100%, 780px);
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.copyright-page .copyright-content p,
+.privacy-page .chapter-content p,
+.terms-page .chapter-content p {
+  margin: 0 0 21px;
+  font-size: 1.04rem;
+  line-height: 1.85;
+  text-align: left;
+  color: var(--text-light);
+}
+
+.copyright-page .copyright-content p:first-child {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  letter-spacing: .06em;
+}
+
+.privacy-page .chapter-content h2,
+.terms-page .chapter-content h2 {
+  margin: 38px 0 13px;
+  font-size: clamp(1.65rem, 3vw, 2.1rem);
+  line-height: 1.2;
+  color: var(--gold-soft);
+}
+
+.privacy-page .chapter-content h2:first-of-type,
+.terms-page .chapter-content h2:first-of-type {
+  margin-top: 34px;
+}
+
+.copyright-page .chapter-navigation-section,
+.privacy-page .chapter-navigation-section,
+.terms-page .chapter-navigation-section {
+  width: min(100%, 900px);
+  margin: 46px auto 0;
+  padding-top: 30px;
+}
+
+.copyright-page .chapter-navigation,
+.privacy-page .chapter-navigation,
+.terms-page .chapter-navigation {
+  gap: 14px;
+}
+
+.copyright-page .chapter-button,
+.privacy-page .chapter-button,
+.terms-page .chapter-button {
+  min-height: 94px;
+  padding: 16px 14px;
+  border-radius: 18px;
+}
+
+.copyright-page footer,
+.privacy-page footer,
+.terms-page footer {
+  margin-top: 34px;
+  padding: 22px 18px;
+}
+
+.copyright-page .footer-container,
+.privacy-page .footer-container,
+.terms-page .footer-container {
+  width: min(100%, 1100px);
+  margin: 0 auto;
+  padding: 10px 18px;
+}
+
+.copyright-page .footer-bottom,
+.privacy-page .footer-bottom,
+.terms-page .footer-bottom {
+  text-align: center;
+}
+
+.copyright-page .footer-bottom p,
+.privacy-page .footer-bottom p,
+.terms-page .footer-bottom p {
+  margin: 8px 0;
+  line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+  .copyright-page .page,
+  .privacy-page .page,
+  .terms-page .page {
+    width: 94%;
+    margin: 112px auto 44px;
+    padding: 0 14px;
+  }
+
+  .copyright-page .page-header-simple,
+  .privacy-page .chapter-header,
+  .terms-page .chapter-header {
+    padding-top: 12px;
+    margin-bottom: 28px;
+  }
+
+  .copyright-page .copyright-content p,
+  .privacy-page .chapter-content p,
+  .terms-page .chapter-content p {
+    margin-bottom: 18px;
+    font-size: 1rem;
+    line-height: 1.82;
+  }
+
+  .privacy-page .chapter-content h2,
+  .terms-page .chapter-content h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+
+  .copyright-page .chapter-navigation-section,
+  .privacy-page .chapter-navigation-section,
+  .terms-page .chapter-navigation-section {
+    margin-top: 34px;
+    padding-top: 24px;
+  }
+
+  .copyright-page .chapter-navigation,
+  .privacy-page .chapter-navigation,
+  .terms-page .chapter-navigation {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 11px;
+  }
+
+  .copyright-page .chapter-button,
+  .privacy-page .chapter-button,
+  .terms-page .chapter-button {
+    min-height: 82px;
+    padding: 14px 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .copyright-page .page,
+  .privacy-page .page,
+  .terms-page .page {
+    width: 95%;
+    margin-top: 100px;
+    padding: 0 9px;
+  }
+
+  .copyright-page .page-header-simple h1,
+  .privacy-page .chapter-header h1,
+  .terms-page .chapter-header h1 {
+    font-size: clamp(2rem, 8vw, 2.5rem);
+  }
+
+  .copyright-page .chapter-navigation,
+  .privacy-page .chapter-navigation,
+  .terms-page .chapter-navigation {
+    grid-template-columns: 1fr;
+  }
+
+  .copyright-page .chapter-button,
+  .privacy-page .chapter-button,
+  .terms-page .chapter-button {
+    min-height: 74px;
+  }
+
+  .copyright-page footer,
+  .privacy-page footer,
+  .terms-page footer {
+    margin-top: 24px;
+    padding: 18px 10px;
+  }
+
+  .copyright-page .footer-container,
+  .privacy-page .footer-container,
+  .terms-page .footer-container {
+    padding: 8px 6px;
+  }
+}
