@@ -4944,3 +4944,527 @@ Balanced reading width and page rhythm
   }
 }
 
+
+
+/*====================================================
+READING PAGES
+Consistent spacing from Copyright through Epilogue
+====================================================*/
+
+.copyright-page .page,
+.dedication-page .page,
+.reader-page .page,
+.preface-page .page,
+.introduction-page .page,
+.chapter-page .page {
+  width: min(92%, 980px);
+  max-width: 980px;
+  margin: 138px auto 64px;
+  padding: 0 24px;
+}
+
+.copyright-page .reading-width,
+.dedication-page .reading-width,
+.preface-page .reading-width,
+.introduction-page .reading-width,
+.chapter-page .reading-width {
+  width: 100%;
+  max-width: 100%;
+}
+
+.copyright-page .page-header-simple,
+.dedication-page .page-header-simple,
+.preface-page .page-header-simple,
+.introduction-page .page-header-simple {
+  padding: 22px 0 0;
+  margin: 0 auto 34px;
+}
+
+.copyright-page .page-header-simple .section-label,
+.dedication-page .page-header-simple .section-label,
+.preface-page .page-header-simple .section-label,
+.introduction-page .page-header-simple .section-label {
+  margin-bottom: 12px;
+}
+
+.copyright-page .page-header-simple h1,
+.dedication-page .page-header-simple h1,
+.preface-page .page-header-simple h1,
+.introduction-page .page-header-simple h1 {
+  margin: 0 auto 12px;
+  font-size: clamp(2.5rem, 5vw, 3.7rem);
+  line-height: 1.12;
+}
+
+.copyright-page .page-header-simple .divider,
+.dedication-page .page-header-simple .divider,
+.preface-page .page-header-simple .divider,
+.introduction-page .page-header-simple .divider {
+  margin: 18px auto 0;
+}
+
+.copyright-page .copyright-content,
+.dedication-page .dedication-content,
+.preface-page .preface-content,
+.introduction-page .introduction-content {
+  width: min(100%, 760px);
+  margin: 0 auto;
+}
+
+.copyright-page .copyright-content p,
+.dedication-page .dedication-content p,
+.preface-page .preface-content p,
+.introduction-page .introduction-content p {
+  margin: 0 0 21px;
+  font-size: 1.07rem;
+  line-height: 1.88;
+  text-align: left;
+}
+
+.copyright-page .copyright-content {
+  text-align: center;
+}
+
+.copyright-page .copyright-content p {
+  text-align: center;
+}
+
+.copyright-page .copyright-content .ornament {
+  margin: 28px auto 18px;
+}
+
+.copyright-page .copyright-content .copyright-verse {
+  margin: 0 auto;
+  max-width: 620px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35rem;
+  line-height: 1.55;
+  color: var(--cream);
+}
+
+.dedication-page .dedication-opening {
+  margin-bottom: 12px;
+  color: var(--gold-soft);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.55rem;
+}
+
+.dedication-page .dedication-signature,
+.preface-page .preface-signature {
+  margin: 34px auto 0;
+  text-align: center;
+}
+
+.dedication-page .dedication-signature p,
+.preface-page .preface-signature p {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.dedication-page .dedication-signature h3,
+.preface-page .preface-signature h3 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.preface-page .preface-content p,
+.introduction-page .introduction-content p {
+  text-align: left;
+}
+
+.chapter-page .chapter-header {
+  padding-top: 22px;
+  margin: 0 auto 38px;
+  text-align: center;
+}
+
+.chapter-page .chapter-number {
+  margin-bottom: 12px;
+}
+
+.chapter-page .chapter-header h1 {
+  max-width: 850px;
+  margin: 0 auto 14px;
+  font-size: clamp(2.6rem, 5vw, 3.8rem);
+  line-height: 1.12;
+}
+
+.chapter-page .chapter-header .divider {
+  margin: 20px auto 0;
+}
+
+.chapter-page .chapter-content {
+  width: min(100%, 800px);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.chapter-page .chapter-content p {
+  margin: 0 0 23px;
+  font-size: 1.08rem;
+  line-height: 1.9;
+}
+
+.chapter-page .chapter-content p:first-of-type {
+  font-size: 1.12rem;
+  line-height: 1.9;
+}
+
+.chapter-page .chapter-content h2 {
+  margin-top: 54px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.chapter-page .chapter-content h3 {
+  margin-top: 42px;
+  margin-bottom: 16px;
+  line-height: 1.25;
+}
+
+.copyright-page .chapter-navigation-section,
+.dedication-page .chapter-navigation-section,
+.reader-page .chapter-navigation-section,
+.preface-page .chapter-navigation-section,
+.introduction-page .chapter-navigation-section,
+.chapter-page .chapter-navigation-section {
+  margin-top: 52px;
+  padding-top: 34px;
+}
+
+.copyright-page .chapter-navigation,
+.dedication-page .chapter-navigation,
+.preface-page .chapter-navigation,
+.introduction-page .chapter-navigation,
+.chapter-page .chapter-navigation {
+  gap: 14px;
+}
+
+.copyright-page .chapter-button,
+.dedication-page .chapter-button,
+.preface-page .chapter-button,
+.introduction-page .chapter-button,
+.chapter-page .chapter-button {
+  min-height: 104px;
+  padding: 18px 16px;
+  border-radius: 18px;
+}
+
+.copyright-page footer,
+.dedication-page footer,
+.reader-page footer,
+.preface-page footer,
+.introduction-page footer,
+.chapter-page footer {
+  margin-top: 34px;
+  padding: 24px 18px;
+}
+
+.copyright-page .footer-container,
+.dedication-page .footer-container,
+.reader-page .footer-container,
+.preface-page .footer-container,
+.introduction-page .footer-container,
+.chapter-page .footer-container {
+  padding: 12px 20px;
+}
+
+.copyright-page .footer-bottom,
+.dedication-page .footer-bottom,
+.reader-page .footer-bottom,
+.preface-page .footer-bottom,
+.introduction-page .footer-bottom,
+.chapter-page .footer-bottom {
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .copyright-page .page,
+  .dedication-page .page,
+  .reader-page .page,
+  .preface-page .page,
+  .introduction-page .page,
+  .chapter-page .page {
+    width: 94%;
+    margin: 112px auto 48px;
+    padding: 0 12px;
+  }
+
+  .copyright-page .page-header-simple,
+  .dedication-page .page-header-simple,
+  .preface-page .page-header-simple,
+  .introduction-page .page-header-simple,
+  .chapter-page .chapter-header {
+    padding-top: 14px;
+    margin-bottom: 26px;
+  }
+
+  .copyright-page .page-header-simple h1,
+  .dedication-page .page-header-simple h1,
+  .preface-page .page-header-simple h1,
+  .introduction-page .page-header-simple h1,
+  .chapter-page .chapter-header h1 {
+    font-size: clamp(2.1rem, 7vw, 2.7rem);
+  }
+
+  .copyright-page .copyright-content p,
+  .dedication-page .dedication-content p,
+  .preface-page .preface-content p,
+  .introduction-page .introduction-content p,
+  .chapter-page .chapter-content p,
+  .chapter-page .chapter-content p:first-of-type {
+    margin-bottom: 18px;
+    font-size: 1rem;
+    line-height: 1.82;
+  }
+
+  .chapter-page .chapter-content h2 {
+    margin-top: 40px;
+    margin-bottom: 16px;
+    font-size: 2rem;
+  }
+
+  .chapter-page .chapter-content h3 {
+    margin-top: 32px;
+    margin-bottom: 14px;
+    font-size: 1.65rem;
+  }
+
+  .copyright-page .chapter-navigation-section,
+  .dedication-page .chapter-navigation-section,
+  .preface-page .chapter-navigation-section,
+  .introduction-page .chapter-navigation-section,
+  .chapter-page .chapter-navigation-section {
+    margin-top: 38px;
+    padding-top: 26px;
+  }
+
+  .copyright-page .chapter-navigation,
+  .dedication-page .chapter-navigation,
+  .preface-page .chapter-navigation,
+  .introduction-page .chapter-navigation,
+  .chapter-page .chapter-navigation {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 11px;
+  }
+
+  .copyright-page .chapter-button,
+  .dedication-page .chapter-button,
+  .preface-page .chapter-button,
+  .introduction-page .chapter-button,
+  .chapter-page .chapter-button {
+    min-height: 88px;
+    padding: 15px 12px;
+  }
+
+  .copyright-page footer,
+  .dedication-page footer,
+  .reader-page footer,
+  .preface-page footer,
+  .introduction-page footer,
+  .chapter-page footer {
+    margin-top: 26px;
+    padding: 20px 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .copyright-page .page,
+  .dedication-page .page,
+  .reader-page .page,
+  .preface-page .page,
+  .introduction-page .page,
+  .chapter-page .page {
+    width: 95%;
+    margin-top: 104px;
+    padding: 0 8px;
+  }
+
+  .copyright-page .copyright-content p,
+  .dedication-page .dedication-content p,
+  .preface-page .preface-content p,
+  .introduction-page .introduction-content p,
+  .chapter-page .chapter-content p,
+  .chapter-page .chapter-content p:first-of-type {
+    font-size: .98rem;
+    line-height: 1.8;
+    margin-bottom: 17px;
+  }
+
+  .copyright-page .chapter-navigation,
+  .dedication-page .chapter-navigation,
+  .preface-page .chapter-navigation,
+  .introduction-page .chapter-navigation,
+  .chapter-page .chapter-navigation {
+    grid-template-columns: 1fr;
+  }
+
+  .copyright-page .chapter-button,
+  .dedication-page .chapter-button,
+  .preface-page .chapter-button,
+  .introduction-page .chapter-button,
+  .chapter-page .chapter-button {
+    min-height: 76px;
+  }
+
+  .copyright-page .footer-container,
+  .dedication-page .footer-container,
+  .reader-page .footer-container,
+  .preface-page .footer-container,
+  .introduction-page .footer-container,
+  .chapter-page .footer-container {
+    padding: 10px 8px;
+  }
+}
+
+/*====================================================
+AUTHOR PAGE
+Balanced banner, biography and closing navigation
+====================================================*/
+
+.author-page .page-header {
+  margin: 112px auto 34px;
+  padding: 0 24px;
+}
+
+.author-page .page-header .page-banner {
+  margin-bottom: 28px;
+}
+
+.author-page .page-header-content {
+  margin-top: 26px;
+}
+
+.author-page .page-header h1 {
+  margin-bottom: 12px;
+}
+
+.author-page .author-section {
+  padding: 28px 0 42px;
+}
+
+.author-page .author-grid {
+  max-width: 1040px;
+  margin: 0 auto;
+  grid-template-columns: minmax(240px, 330px) minmax(0, 1fr);
+  gap: 52px;
+  align-items: start;
+}
+
+.author-page .author-photo {
+  position: sticky;
+  top: 112px;
+}
+
+.author-page .author-content h2 {
+  margin-bottom: 18px;
+  line-height: 1.12;
+}
+
+.author-page .author-content p {
+  margin-bottom: 19px;
+  font-size: 1.04rem;
+  line-height: 1.85;
+}
+
+.author-page .author-quote {
+  margin-top: 28px;
+  padding: 24px 28px;
+  line-height: 1.7;
+}
+
+.author-page .mission {
+  max-width: 1040px;
+  margin: 48px auto;
+  padding: 48px 38px;
+}
+
+.author-page .chapter-navigation-section {
+  margin-top: 38px;
+  padding-top: 30px;
+}
+
+.author-page footer {
+  margin-top: 30px;
+  padding: 24px 18px;
+}
+
+@media (max-width: 900px) {
+  .author-page .author-grid {
+    grid-template-columns: minmax(210px, 280px) minmax(0, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .author-page .page-header {
+    margin: 100px auto 24px;
+    padding: 0 18px;
+  }
+
+  .author-page .page-header .page-banner {
+    margin-bottom: 20px;
+  }
+
+  .author-page .page-header-content {
+    margin-top: 18px;
+    padding: 0 8px;
+  }
+
+  .author-page .author-section {
+    padding: 18px 0 28px;
+  }
+
+  .author-page .author-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    max-width: 680px;
+  }
+
+  .author-page .author-photo {
+    position: static;
+    width: min(100%, 360px);
+    margin: 0 auto;
+  }
+
+  .author-page .author-content p {
+    font-size: 1rem;
+    line-height: 1.82;
+    margin-bottom: 17px;
+  }
+
+  .author-page .author-quote {
+    margin-top: 22px;
+    padding: 20px 22px;
+  }
+
+  .author-page .mission {
+    margin: 32px auto;
+    padding: 32px 22px;
+  }
+
+  .author-page .chapter-navigation-section {
+    margin-top: 28px;
+    padding-top: 24px;
+  }
+
+  .author-page footer {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .author-page .page-header {
+    margin-top: 92px;
+    padding: 0 12px;
+  }
+
+  .author-page .author-grid {
+    gap: 22px;
+  }
+
+  .author-page .mission {
+    padding: 26px 18px;
+    border-radius: 22px;
+  }
+}
